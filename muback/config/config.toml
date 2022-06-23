@@ -1,0 +1,20 @@
+[database]
+db_host= "18.141.160.199"
+db_port="3306"
+db_schema ="mubs"
+db_username = "root"
+db_password=""
+db_args ="charset=utf8mb4&parseTime=True&loc=Local"
+
+[ethereum]
+network="https://bsc-dataseed.binance.org/"
+chainId = 56
+usdtAddress = "0x55d398326f99059fF775485246999027B3197955"
+keyStore = ""
+contractAddress = "0x42a49394574bd6f66f148cf8B856B6aDBB43FdBe"
+mubsAddress = "0xf25ed5e690D367887F33190a3574b97e42542fD8"
+usdtReceiver ="0x4aA8B61008E130a6c72568aE52BE33e6237F605E"
+
+[redis]
+redis_network = "127.0.0.1:6379"
+redis_password = ""

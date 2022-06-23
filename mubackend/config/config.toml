@@ -1,0 +1,25 @@
+port = "8082"
+
+log_path = "./log/log.log"
+redis_network = "127.0.0.1:6379"
+redis_password = ""
+#redis_network = "120.24.176.228:6379"
+#redis_pasword ="123456"
+api_key = "SPT2S73P7YVTRMPS3CHCAYSI94HXQ4B7VV"
+[ethereum]
+network = "https://bsc-dataseed.binance.org/"
+mubsAddress = "0xf25ed5e690D367887F33190a3574b97e42542fD8"
+chainId = 56
+keyStore = ""
+keyStorePath = "0xaDcD71352e8802a8dA38a7fF331a6D18dC1b518D"
+contractAddress ="0x42a49394574bd6f66f148cf8B856B6aDBB43FdBe"
+
+[database]
+db_host = "18.141.160.199"
+#db_host = "120.24.176.228"
+db_port = "3306"
+db_schema = "mubs"
+db_username = "root"
+db_password = ""
+#db_password="123456"
+db_args = "charset=utf8mb4&parseTime=True&loc=Local"
